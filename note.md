@@ -10,3 +10,8 @@
  .\rabbitmqctl.bat add_vhost /hello
  .\rabbitmqctl.bat set_permissions -p /hello hello ".*" ".*" ".*"
 ```
+
+## 3. TopicExchange的通配符
+    # 匹配0个或多个词（词之间以.间隔）  
+    * 匹配0个或多个词字符
+见 [DeclareMore.java](DeclareMore) [ExchangeTopicDemo.java](ExchangeTopicDemo)
