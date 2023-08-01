@@ -52,6 +52,10 @@ public class DeclareMore {
             channel.queueDeclare("hello.queue.topic1", true, false, false, null);
             channel.queueDeclare("hello.queue.topic2", true, false, false, null);
             // 声明绑定
+            /*
+            # 匹配0个或多个词（词之间以.间隔）
+            * 匹配0个或多个词字符
+             */
             channel.queueBind("hello.queue.topic1", "hello.exchange.topic", "hello.routingKey.topic.*");
             channel.queueBind("hello.queue.topic2", "hello.exchange.topic", "hello.routingKey.topic.#");
         }
