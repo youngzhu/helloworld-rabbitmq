@@ -25,9 +25,9 @@ public class DeclareMore {
             channel.exchangeDeclare("hello.exchange.direct", BuiltinExchangeType.DIRECT,
                     true, false, null);
             // 声明队列 Queue
-            channel.queueDeclare("hello.queue.test", true, false, false, null);
+            channel.queueDeclare("hello.queue.direct", true, false, false, null);
             // 声明绑定
-            channel.queueBind("hello.queue.test", "hello.exchange.direct", "hello.routingKey.test");
+            channel.queueBind("hello.queue.direct", "hello.exchange.direct", "hello.routingKey.direct");
         }
 
         {
