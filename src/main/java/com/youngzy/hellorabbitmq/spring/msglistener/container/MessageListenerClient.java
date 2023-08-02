@@ -1,8 +1,6 @@
-package com.youngzy.hellorabbitmq.spring.msglistener;
+package com.youngzy.hellorabbitmq.spring.msglistener.container;
 
 import lombok.SneakyThrows;
-import org.springframework.amqp.core.*;
-import org.springframework.amqp.rabbit.core.RabbitAdmin;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 

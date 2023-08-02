@@ -1,4 +1,4 @@
-package com.youngzy.hellorabbitmq.spring.msglistener.adapter.json;
+package com.youngzy.hellorabbitmq.spring.msglistener.container.adapter;
 
 import lombok.SneakyThrows;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -11,10 +11,10 @@ import java.util.concurrent.TimeUnit;
  * @since 2023-08-01
  */
 @ComponentScan
-public class JsonMessageListenerClient {
+public class MessageListenerClient {
     @SneakyThrows
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(JsonMessageListenerClient.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MessageListenerClient.class);
 
         TimeUnit.SECONDS.sleep(10);
 

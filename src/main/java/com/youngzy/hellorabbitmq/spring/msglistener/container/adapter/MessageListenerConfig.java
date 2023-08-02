@@ -1,4 +1,4 @@
-package com.youngzy.hellorabbitmq.spring.msglistener.adapter;
+package com.youngzy.hellorabbitmq.spring.msglistener.container.adapter;
 
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;

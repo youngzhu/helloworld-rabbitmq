@@ -1,4 +1,4 @@
-package com.youngzy.hellorabbitmq.spring.msglistener.adapter;
+package com.youngzy.hellorabbitmq.spring.msglistener.container.adapter;
 
 /**
  * @author youngzy

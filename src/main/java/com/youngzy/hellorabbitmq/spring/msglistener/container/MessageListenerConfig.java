@@ -1,4 +1,4 @@
-package com.youngzy.hellorabbitmq.spring.msglistener;
+package com.youngzy.hellorabbitmq.spring.msglistener.container;
 
 import com.rabbitmq.client.Channel;
 import org.springframework.amqp.core.Message;

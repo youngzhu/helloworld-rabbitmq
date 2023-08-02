@@ -1,4 +1,4 @@
-package com.youngzy.hellorabbitmq.spring.msglistener.adapter.json;
+package com.youngzy.hellorabbitmq.spring.msglistener.container.adapter.json;
 
 import java.util.Map;
 
