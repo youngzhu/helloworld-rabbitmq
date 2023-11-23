@@ -1,4 +1,7 @@
 # 笔记
+## 0. 后台管理
+    http://localhost:15672/
+    默认账号密码：guest/guest
 
 ## 1. RabbitMQ 新增用户（控制台方式）
    https://blog.51cto.com/gblfy/5653663
